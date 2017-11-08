@@ -1,0 +1,39 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "Simple Login app with Passport Authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/av1422/Node.JS-login_app.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Mongo",
+    "DB",
+    "Passport",
+    "Mongoose"
+  ],
+  "author": "Anvesh",
+  "license": "ISC",
+
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
